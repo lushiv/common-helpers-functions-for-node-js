@@ -12,7 +12,7 @@ const commonHelper = {
       }
       return obj;
     },
-    //clean the null and undefined and etc value from array
+    //@clean the null and undefined and etc value from array
     cleanArray(arr){
         let returnArray = null
         returnArray = arr.filter(x => x !== null);
